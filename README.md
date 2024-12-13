@@ -1,5 +1,5 @@
+#Basic Network Sniffer Code
 from scapy.all import sniff, IP, Ether, TCP, UDP, ICMP
-
 def packet_analyzer(packet):
     if IP in packet:
         # Extract IP layer details
